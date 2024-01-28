@@ -6,6 +6,4 @@ package-lock.json
 
 .hintrc
 
-src/font
-
 .DS*

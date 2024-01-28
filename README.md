@@ -10,5 +10,5 @@ To use the themes,
 2. Add the following script to your project.
 
 ```
-    document.body.classList.add(<theme name>)
+    document.body.classList.add(<THEME_NAME>)
 ```

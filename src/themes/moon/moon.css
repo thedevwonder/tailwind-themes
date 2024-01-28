@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Geist";
+    src: url('../../font/Geist-Regular.otf');
+}
+
+@layer base {
+    a {
+        @apply text-slate-300 underline decoration-solid hover:text-white hover:no-underline hover:bg-sky-800/75 hover:cursor-pointer;
+    }
+
+    h1,
+    h2,
+    h3 {
+        @apply text-white
+    }
+
+    h1 {
+        @apply text-3xl
+    }
+
+    h2 {
+        @apply text-2xl
+    }
+
+    h3 {
+        @apply text-xl
+    }
+
+    button {
+        @apply bg-gray-600/75 p-2 rounded-md
+    }
+}
+
+@layer components {
+    .moon {
+        @apply text-sm bg-[#17212B] max-h-full text-slate-300;
+        font-family: 'Geist';
+    }
+}

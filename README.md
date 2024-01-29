@@ -1,14 +1,28 @@
 # Custom themes built in Tailwind
 
-To use the themes, 
-1. place the following stylesheet link inside html head tag.
- ### themes
- 1.1 theme name: moon
-``` 
-<link href="https://cdn.jsdelivr.net/gh/thedevwonder/tailwind-themes/src/themes/moon/index.css" rel="stylesheet">
-```
-2. Add the following script to your project.
+To use the themes, place the following tags as shown in the example
 
+```html
+<head>
+    .
+    .
+    .
+    <link href="https://cdn.jsdelivr.net/gh/thedevwonder/tailwind-themes/src/themes/<THEME_NAME>/index.css" rel="stylesheet">
+    .
+    .
+    .
+</head>
+<body>
+    .
+    .
+    .
+    <script>
+            document.body.classList.add(<THEME_NAME>)
+    </script>
+</body>
 ```
-    document.body.classList.add(<THEME_NAME>)
-```
+Replace the <THEME_NAME> with any of the following themes
+
+## Themes
+
+1. moon - a dark theme inspired by Notion.
